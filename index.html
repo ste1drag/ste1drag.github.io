@@ -12,7 +12,7 @@
 
 <body style="background-color: #0C3234;">
 
-    <div class="d-flex align-items-start">
+    <div class="d-flex align-items-center">
         <div class="nav  flex-column nav-pills me-3 text-light py-5 px-5 display-6" style="background-color: #217676; height: 100vh;" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <img src="ja.jpg" class="rounded-circle" alt="Ja" width="215" height="215">
             <div id="v-pills-home-tab " data-bs-toggle="pill" data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" style="margin-top: 85px;">Lična strana</div>
@@ -21,10 +21,48 @@
             <div id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="margin-top: 25px;">Kontakt</div>
         </div>
 
-        <div class="tab-content text-light mx-auto" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Zdravo, moje ime je Stevan Dragović.</div>
-            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">fdsfdsfsd</div>
-            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">fdsfdsfsd</div>
+        <div class="tab-content text-light px-5" id="v-pills-tabContent">
+            <div class="tab-pane fade show active mx" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                Zdravo, moje ime je Stevan Dragović. <br> Rođen sam u Beogradu 9.1.1997, gde i živim trenutno. Završio sam Osnovnu školu "Branislav Nušić", zatim Osmu beogradsku gimnaziju a sad trenutno završavam Matematički fakultet u Beogradu.
+                <br> Svoje slobodno vreme najviše provodim učeći programski jezik JavaScript, pre svega fokusirajući se na backend(Express.js), ali i frontend (React,jQuery),i pored JavaScript-a, Python i Java mi takođe predstavljaju sferu interesovanja.
+                <br> Pored toga, ono što stvarno volim jeste matematika, i trudim se da matematičko-logički način razmišljanja primenjujem ne samo u praksi, već i u svakodnevnom životu.
+                <br> <br> Takođe,neki od mojih hobija su
+                <ul>
+                    <li>Čitanje knjiga(najviše vezanih za psihologiju)</li>
+                    <li>Gledanje filmova i serija</li>
+                    <li>Sport</li>
+                    <li>Video igre</li>
+                </ul>
+
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" style="width: 75vh;">
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p style="right: auto;left: 0%;">JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p style="right: auto;left: 0%;">Python</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p style="right: auto;left: 0%;">Java</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p style="right: auto;left: 0%;">C/C++</p>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <ul>
+                    <li>
+                        Zanimljiva geografija
+                    </li>
+                    <li>
+                        Autocomplete
+                    </li>
+                </ul>
+            </div>
             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">fdsfdshgfdhghf</div>
         </div>
     </div>
