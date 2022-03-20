@@ -6,73 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="main.css">
     <title>Probna verzija sajta</title>
 </head>
 
-<body style="background-color: #0C3234;">
+<body>
 
-    <div class="d-flex align-items-center">
-        <div class="nav  flex-column nav-pills me-3 text-light py-5 px-5 display-6" style="background-color: #217676; height: 100vh;" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <img src="ja.jpg" class="rounded-circle" alt="Ja" width="215" height="215">
-            <div id="v-pills-home-tab " data-bs-toggle="pill" data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" style="margin-top: 85px;">Lična strana</div>
-            <div id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="margin-top: 25px;">Veštine</div>
-            <div id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="margin-top: 25px;">Projekti</div>
-            <div id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="margin-top: 25px;">Kontakt</div>
-        </div>
+    <main>
+        <header>Stevan Dragović personal portfolio page</header>
 
-        <div class="tab-content text-light px-5" id="v-pills-tabContent">
-            <div class="tab-pane fade show active mx" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                Zdravo, moje ime je Stevan Dragović. <br> Rođen sam u Beogradu 9.1.1997, gde i živim trenutno. Završio sam Osnovnu školu "Branislav Nušić", zatim Osmu beogradsku gimnaziju a sad trenutno završavam Matematički fakultet u Beogradu.
-                <br> Svoje slobodno vreme najviše provodim učeći programski jezik JavaScript, pre svega fokusirajući se na backend(Express.js), ali i frontend (React,jQuery),i pored JavaScript-a, Python i Java mi takođe predstavljaju sferu interesovanja.
-                <br> Pored toga, ono što stvarno volim jeste matematika, i trudim se da matematičko-logički način razmišljanja primenjujem ne samo u praksi, već i u svakodnevnom životu.
-                <br> <br> Takođe,neki od mojih hobija su
-                <ul>
-                    <li>Čitanje knjiga(najviše vezanih za psihologiju)</li>
-                    <li>Gledanje filmova i serija</li>
-                    <li>Sport</li>
-                    <li>Video igre</li>
-                </ul>
+        <nav class="navStyle">
+            <ol>
+                <li class="about"><a href="#about">About me</a></li>
+                <li class="skills"><a href="#skills">Skills</a></li>
+                <li class="contact"><a href="#contact">Contact</a></li>
+            </ol>
 
+        </nav>
+
+        <section id="about">
+            <div id="toolPart">
+                <div id="caption">
+                    Hello, my name is Stevan and I am a mathematician and software developer from Belgrade, Serbia. Ovo je neki najrandom tekst koji sada pišem jer nemam pojma šta bih pisao inače, jer ja nemam nikakvog iskustva a i znanje mi je vrv nikakvo, tako da ako nekom
+                    treba neko kao ja nek mi se javi slobodno. <br> Interesujem se kao za neko programiranje al iskreno jako brzo mi isparava znanje a i projekti koje sam radio su bullshit veliki, tačnije kvalitet koda je očajan, a
+                    nadam se da ću se ipak popraviti jednog dana. Radim kao u javaskriptu, iako ga pojma nemam vrv, al eto da se hvalim Bojanu i ostalima. Imam neka interesovanja kao, al ustvari ceo dan samo sedim gajbi i ništa ne radim i mislim o onome
+                    šta ću da radim, al nema veze šta da se radi.
+                </div>
+                <div>
+                    <img src="ja.jpg " alt="moja slika" class="rounded-circle" alt="Ja " width="315" height="315 " style="border: 10px solid white;">
+                </div>
             </div>
-            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" style="width: 75vh;">
-                <div class="progress">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+        </section>
+        <section id="skills">
+            <div id="mainPart">
+                <div id="picture" style="float: left;">
+                    <img src="software-development.png" alt="moja slika" alt="Ja " width="215" height="215">
                 </div>
-                <p style="right: auto;left: 0%;">JavaScript</p>
-                <div class="progress">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div id="tools">
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 56% " aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p style="right: auto;left: 0%;">JavaScript</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50% " aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p style="right: auto;left: 0%;">Python</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 45% " aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p style="right: auto;left: 0%;">Java</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 43% " aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p style="right: auto;left: 0%;">C/C++</p>
                 </div>
-                <p style="right: auto;left: 0%;">Python</p>
-                <div class="progress">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p style="right: auto;left: 0%;">Java</p>
-                <div class="progress">
-                    <div class="progress-bar bg-info" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p style="right: auto;left: 0%;">C/C++</p>
-            </div>
-            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <ul>
-                    <li>
-                        Zanimljiva geografija
-                    </li>
-                    <li>
-                        Autocomplete
-                    </li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">fdsfdshgfdhghf</div>
-        </div>
-    </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-
+        </section>
+        <section id="contact">
+            You can call me anywhere anytime
+        </section>
+    </main>
 
 </body>
+
+
 
 </html>

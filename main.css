@@ -1,0 +1,62 @@
+body {
+    margin-top: 50px;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+}
+
+section {
+    min-height: 400px;
+}
+
+#about {
+    background-color: #abe5f5;
+}
+
+#mainPart {
+    display: flex;
+    padding: 75px;
+    margin: 15%;
+    font-size: 25px;
+}
+
+#toolPart {
+    display: flex;
+    padding: 75px;
+    margin: 15%;
+    font-size: 25px;
+}
+
+#caption {
+    margin-right: 100px;
+    color: #033340;
+}
+
+#picture {
+    text-align: center;
+}
+
+#skills {
+    background-color: cadetblue;
+}
+
+#tools {
+    margin-left: 35%;
+    display: block;
+    width: 500px;
+}
+
+.navStyle {
+    margin-top: 40px;
+    position: fixed;
+}
+
+.navStyle li {
+    margin-right: auto;
+    display: inline;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
