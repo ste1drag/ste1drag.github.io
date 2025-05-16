@@ -1,1 +1,1 @@
-Personal webpage
+Licna stranica
